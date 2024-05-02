@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import route from "./routes/projectRoute.js";
 
 const app = express();
+// This line is telling Express to use the body-parser middleware to parse JSON data sent in the request body.
 app.use(bodyParser.json());
 dotenv.config();
 
